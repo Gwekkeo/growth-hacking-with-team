@@ -42,4 +42,5 @@ rails '5.2.0'
 * Nancy
 * Louis
 * Joanne
-* Jeremy
+* Jérémie
+* Rid

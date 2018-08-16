@@ -57,6 +57,18 @@ $ BotTwitter.new.perform
 Enfin vérifier que les tweets sont bien postés sur notre profil Twitter :
 https://twitter.com/joannerr1/with_replies
 
+## Google Analytics
+
+#Allez sur:
+https://analytics.google.com/
+
+#Login:
+#contact.thp.paris@gmail.com
+#TheIsland75
+
+Regarder temps réel // audiences
+
+
 ### Version ruby
 ruby '2.5.1'
 rails '5.2.0'

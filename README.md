@@ -59,14 +59,14 @@ https://twitter.com/joannerr1/with_replies
 
 ## Google Analytics
 
-#Allez sur:
+- Allez sur:
 https://analytics.google.com/
 
-#Login:
+- Login:
 contact.thp.paris@gmail.com
 TheIsland75
 
-#Regarder temps réel // audiences
+- Regarder temps réel // audiences
 
 
 ### Version ruby

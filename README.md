@@ -34,7 +34,7 @@ $ localhost:4567
 ```
 ## Bot Twitter 
 
-Les identifiants du compte Twitter sont déjà présents dans sur Heroku tu n'auras qu'à lancer le bot dans le Terminal.
+Les identifiants du compte Twitter sont déjà présents sur Heroku tu n'auras qu'à lancer le bot dans le Terminal.
 
 - Activer la console :
 ```

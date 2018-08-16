@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>HOME PAGE</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124049879-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('set', {'user_id': 'USER_ID'}); // Définir l'ID utilisateur à partir du paramètre user_id de l'utilisateur connecté.
+    gtag('config', 'UA-124049879-1');
+  </script>
+  <!-- Google Tag Manager-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9ZH558');</script>
+<!-- End Google Tag Manager -->
+
+<title>THP</title>
+<link rel="icon" href="../palmtree.png" />
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/cards.css">
+<link rel="stylesheet" href="css/tabs.css">
+<div class="navbar">
+  <ul>
+    <div class="div_logo">
+      <img class="logo" src="../palmtree.png" alt="palmtree_logo">
+    </div>
+    <li><a class="l1" href="/home">Home</a></li>
+    <li><a class="l1" href="/cursus">Témoignages</a></li>
+    <li><a class="l1" href="/contact">Cursus</a></li>
+    <div class="position_avatar">
+      <img class="avatar" src="../RR+307367.jpg" alt="Anamorphose21_1">
+    </div>
+  </ul>
+</div>
+
+
 </head>
+
 <body>
-	<div class="jumbotron">
-		<h1>Inscris toi :)</h1>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9ZH558"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-		<form method="post">
-			<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<header>
 
-			<div class="form-group">
-				<label>Prenom:</label>
-				<input type="text" class="form-control" name="first_name">
-			</div>
 
-			<div class="form-group">
-				<label>Nom:</label>
-				<input type="text" class="form-control" name="last_name">
-			</div>
+<div class="position_btn2">
+  <form class=“form-inline”>
+   <input type=“email” class="button" class= "form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="jane@gmail.com">
+   <button type=“submit” class= "btn btn-primary mb-2 mr-sm-2" > Newsletter?
+   </button>
+  </form>
+</div>
 
-			<div class="form-group">
-				<label>Email:</label>
-				<input type="text" class="form-control" name="email">
-			</div>
+  </header>
+  <content>
 
-			<input type="submit" class="btn btn-success btn-lg">
-		</form>
-		
 
-		<br>
-		<a href="/sending" class="btn btn-warning">SEND EMAIL TO ALL SUBSCRIBERS</a>
-	</div>
+
 </body>
+
 </html>

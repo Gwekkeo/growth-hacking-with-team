@@ -7,12 +7,14 @@ class StaticPagesController < ApplicationController
     puts "-"*60
     puts "-"*60
     puts "-"*60
+
     puts "\tON ENVOIT UN MAIL A CHAQUE MEMBRE DE LA LISTE 'SUBSCRIBE'"
-    tab_all_user = gibbon.lists.members(2549c90cf5)['data']
+    # tab_all_user = gibbon.lists.members({:id => 2549c90cf5})
     tab_all_user.each do |user|
       puts "L'user: #{user} -> #{user.first_name} -> #{user.last_name}"
       ContactMailer.contact(user).deliver_now
     end
+    
     puts "-"*60
     puts "-"*60
     puts "-"*60

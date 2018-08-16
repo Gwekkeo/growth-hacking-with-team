@@ -35,12 +35,21 @@ $ localhost:4567
 ```
 ## Bot Twitter 
 
-Les identifiants du compte Twitter sont déjà présents sur Heroku tu n'auras qu'à lancer le bot dans le Terminal.
+- Créer un fichier .env et y ajouter tes clés API de Twitter sur ce modèle :
+```
+{
+consumer_key = "clé",
+consumer_secret = "clé",
+access_token = "clé",
+access_token_secret = "clé"
+}
+```
 
 - Activer la console :
 ```
 $ rails console
 ```
+
 - Lancer le bot :
 ```
 $ BotTwitter.new.perform

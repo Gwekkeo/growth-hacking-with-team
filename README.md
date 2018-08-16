@@ -1,24 +1,45 @@
-# README
+## Go lien App HEROKU:
+# growth-hacking-with-team
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Voir mon code:
+```
+$ git clone https://github.com/Gwekkeo/growth-hacking-with-team.git
+```
+```
+$ cd in-css-create-your-own-classes
+```
 
-Things you may want to cover:
+## Etapes:
+* Installation des gems (sans la production)
 
-* Ruby version
+```
+$ bundle install --without production
+```
+```
+$ rails server
+```
 
-* System dependencies
+#### Dans la barre d'url du Navigateur web
+```
+$ localhost:3000
+```
 
-* Configuration
+### Si probleme avec rails server
+```
+$ rails server -p 4567
+```
+#### Dans la barre d'url du Navigateur web
+```
+$ localhost:4567
+```
 
-* Database creation
+### Version ruby
+ruby '2.5.1'
+rails '5.2.0'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TEAM
+* Gwendoline
+* Nancy
+* Louis
+* Joanne
+* Jeremy

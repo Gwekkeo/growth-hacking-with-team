@@ -6,4 +6,11 @@ class ContactMailer < ApplicationMailer
 		@email_user = @user.email
 		mail(to: @email_user, subject: "Bonjour #{@last_name}!")
 	end
+
+	def campagne
+		gibbon = Gibbon::Request.new(api_key: ENV["MAIL_CHIMP_API_KEY"])
+		gibbon.campaigns('').actions.send.create
+	end
+
+
 end

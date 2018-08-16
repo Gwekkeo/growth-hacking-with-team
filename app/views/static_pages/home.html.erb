@@ -5,15 +5,29 @@
 	<title>HOME PAGE</title>
 </head>
 <body>
-	<h1>Mon title</h1>
-d
 	<div class="jumbotron">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h1>Inscris toi :)</h1>
+
+		<form method="post">
+			<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+			<div class="form-group">
+				<label>Prenom:</label>
+				<input type="text" class="form-control" name="first_name">
+			</div>
+
+			<div class="form-group">
+				<label>Nom:</label>
+				<input type="text" class="form-control" name="last_name">
+			</div>
+
+			<div class="form-group">
+				<label>Email:</label>
+				<input type="text" class="form-control" name="email">
+			</div>
+
+			<input type="submit" class="btn btn-success btn-lg">
+		</form>
 	</div>
 </body>
 </html>

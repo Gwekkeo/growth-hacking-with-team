@@ -55,7 +55,7 @@ attr_accessor :client
 			#puts @usernames
 		
 		@usernames.each do |username|
-			@client.update("Hello @#{username} ! Je t'invite à découvrir le site de THP https://www.thehackingproject.org/ ! Enjoy !")
+			@client.update("Hello @#{username} ! Je t'invite à découvrir la formation The Hacking Project : https://landing-page-website.herokuapp.com/ ! Enjoy !")
 			# sleep 2
 		end
 		puts "Tweets postés"

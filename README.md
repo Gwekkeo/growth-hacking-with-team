@@ -32,6 +32,20 @@ $ rails server -p 4567
 ```
 $ localhost:4567
 ```
+## Bot Twitter 
+
+Les identifiants du compte Twitter sont déjà présents dans sur Heroku tu n'auras qu'à lancer le bot dans le Terminal.
+
+- Activer la console :
+```
+$ rails console
+```
+- Lancer le bot :
+```
+$ BotTwitter.new.perform
+```
+Enfin vérifier que les tweets sont bien postés sur notre profil Twitter :
+https://twitter.com/joannerr1/with_replies
 
 ### Version ruby
 ruby '2.5.1'

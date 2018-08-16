@@ -1,0 +1,70 @@
+.navbar{
+  position: relative;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    padding: 1vw;
+    padding-bottom: 0.5vw;
+    overflow: hidden;
+    background-color: #1C1C1C;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 1vw;
+    font-family: "futura pt";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgba(125,249,255,1);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  height: 3vw;
+  width: 3vw;
+  margin-right: 33vw;
+}
+
+.about{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.avatar{
+  border-radius: 100px 100px;
+  height: 3vw;
+  width: 3vw;
+  box-shadow: 4px 2px 21px -4px rgba(0,0,0,1);
+  margin-left: 32vw;
+}
+
+.avatar:hover{
+  box-shadow: 4px 2px 21px -4px rgba(125,249,255,1);
+}
+
+.l1{
+  margin-left: 2vw;
+
+}

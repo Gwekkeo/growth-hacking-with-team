@@ -1,0 +1,28 @@
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    box-shadow: 4px 2px 21px -4px rgba(0,0,0,1);
+    transition: 0.3s;
+    margin-top: 0vw;
+    margin-bottom: 5%;
+}
+
+.card_image{
+  width: 100%;
+}
+
+.card_1:hover {
+    box-shadow: 4px 2px 21px -4px rgba(125,249,255,1);
+}
+
+.container {
+    padding: 2px 16px;
+}

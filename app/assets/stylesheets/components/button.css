@@ -1,0 +1,67 @@
+.position_btn{
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position_btn2{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+    position: relative;
+    background-color: #333;
+    border: 0.1vw;
+    font-size: 1.2vw;
+    text-align: center;
+    justify-content: center;
+    color: #DADADA;
+    padding: 1vw;
+    width: 17vw;
+    height: 1vw;
+    min-width: 100px;
+    min-height: 10px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-family: "futura pt";
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px 0px;
+    box-shadow: 4px 2px 21px -4px rgba(0,0,0,1);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.button:after {
+    content: "";
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button:hover{
+  box-shadow: 4px 2px 21px -4px rgba(125,249,255,1);
+}

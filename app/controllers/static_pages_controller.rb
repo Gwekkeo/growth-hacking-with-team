@@ -22,4 +22,10 @@ class StaticPagesController < ApplicationController
   		redirect_to root_path
   	end
   end
+
+  def temoigne
+  end
+
+  def cursus
+  end
 end

@@ -43,3 +43,4 @@ rails '5.2.0'
 * Louis
 * Joanne
 * Jeremy
+* Rid

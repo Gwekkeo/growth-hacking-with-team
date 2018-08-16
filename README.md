@@ -63,8 +63,8 @@ https://twitter.com/joannerr1/with_replies
 https://analytics.google.com/
 
 - Login:
-EMAIL: contact.thp.paris@gmail.com
-MDP: TheIsland75
+contact.thp.paris@gmail.com
+ // TheIsland75
 
 - Regarder temps réel // audiences
 

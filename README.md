@@ -69,6 +69,21 @@ contact.thp.paris@gmail.com
 - Regarder temps réel // audiences
 
 
+## Scrap Youtube
+- Etre placer dans l'application
+- Lancer la commande : 
+```
+$ rails console
+```
+- Lancer le scrapper youtube :
+```
+$ WatirYt.new.go_video
+```
+Ton youtube devra être déjà connecté à un compte gmail.
+SI besoin voici les identifiants d'un compte gmail fictif :
+email : solange.solangenana@gmail.com
+mdp : passwordTestRobot1
+
 ### Version ruby
 ruby '2.5.1'
 rails '5.2.0'

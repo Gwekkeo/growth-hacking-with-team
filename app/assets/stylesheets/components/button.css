@@ -1,19 +1,9 @@
-.position_btn{
-  position: absolute;
-  top: 85%;
-  left: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.position_btn2{
-  position: absolute;
-  top: 30%;
-  left: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.newsletter-position-1, 
+.newsletter-position-2, 
+.newsletter-position-3 {
+  position: fixed;
+  bottom: 0;
+  margin: 0.5% 1%;
 }
 
 .button {
@@ -64,4 +54,8 @@
 
 .button:hover{
   box-shadow: 4px 2px 21px -4px rgba(125,249,255,1);
+}
+
+.button-submit {
+  background-color: black;
 }

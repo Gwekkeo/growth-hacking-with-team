@@ -15,11 +15,6 @@ attr_accessor :client
 			# config.consumer_secret	  = ENV["consumer_secret"]
 			# config.access_token 	  = ENV["access_token"]
 			# config.access_token_secret = ENV["access_token_secret"]
-
-			config.consumer_key		  = "0XnaIM711lbpSFwOgAXjceX9t"
-			config.consumer_secret	  = "Y6KS4qnlhFPwa4EgXIRBOp45NoF6XlRMoHST9HP7LxwdTd0V4H"
-			config.access_token 	  = "1016978227586306048-UzXGQ0yLswqNjSfcQK94ejtNC7gHqr"
-			config.access_token_secret = "d4AGaUGxYKILfaJ8bX4Mzs8LI12YCOtmF2IVrDSBMz7Cl"
 		end
 	# puts @client
 	end

@@ -79,9 +79,9 @@ $ rails console
 ```
 $ WatirYt.new.go_video
 ```
-Ton youtube devra être déjà connecté à un compte gmail.
-SI besoin voici les identifiants d'un compte gmail fictif :
-email : solange.solangenana@gmail.com
+Ton youtube devra être déjà connecté à un compte gmail.   
+SI besoin voici les identifiants d'un compte gmail fictif :   
+email : solange.solangenana@gmail.com   
 mdp : passwordTestRobot1
 
 ### Version ruby
